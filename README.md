@@ -8,20 +8,20 @@ Data is displayed every 5 seconds in the Serial Monitor.
 
 ## Connections
 
-BH1750 (I2C):
+### BH1750 (I2C):
 - SDA → D21
 - SCL → D22
 - VCC → 3.3V
 - GND → GND
 - ADDR → GND or VCC (address 0x23 or 0x5C)
 
-DS18B20 (1-Wire):
+### DS18B20 (1-Wire):
 Attention! 4.7kΩ pull-up resistor should be installed; just check if your board already has it.
 - DATA → D4
 - VCC → 3.3V
 - GND → GND
   
-MQ-2 (Analog/Digital):
+### MQ-2 (Analog/Digital):
 - AO → D34 (analog input)
 - DO → optional digital input
 - VCC → 5V
