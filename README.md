@@ -43,3 +43,5 @@ MQ-2 (Analog/Digital):
 - Save the log to cloudstorage.
 - Display data on screen or web page.
 - Set alert thresholds for the MQ-2 sensor.
+
+This project was developed with guidance and reference materials from online resources and tools.
